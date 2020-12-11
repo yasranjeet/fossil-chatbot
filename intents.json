@@ -1,0 +1,75 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day" ,"Hi", "Hey", "Heyy","hii","hello","sup","heyy","hiiii","what's up","Hii"],
+         "responses": ["Hi, My Name is Bruce, I'll be your Narrator today", "Hi, My name is Bruce. I'll walk you today, through our website - discoverfossils.com", "Heyy, My name is Bruce and I'm also a Guinness World Record holder."],
+         "context": [""]
+        },
+        {"tag": "Bruce",
+         "patterns": ["Tell us something about you Bruce","Who are you","Who are you Bruce"," how can you help me Bruce"," What do you do","What do you do, Bruce","About"],
+         "responses": ["Well, I was discovered, in 1974, north of Thornbill, within the Pembina member of the Pierre Shale formation. ", "I'm a Tylosaurus Pembinensis and I'm the Guinness World Record holder as the largest publicly displayed mosasaur.", "I lived during the late Cretaceous period, approximately 80 million years ago. He swam in a deep sea environment with numerous other marine reptiles. "],
+         "context": [""]
+        },
+        {"tag": "Aves",
+         "patterns": ["Do you have any bird in Aves Class?"],
+         "responses": ["Of course, we have a bird in the sub-species of regalis with Genus -- Hesperornis in Hesperornithidae family of the Order of  Hesperornithiformes. It's common name is Hesperornis. "],
+         "context": [""]
+        },
+        {"tag": "Ab",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Entry",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide Bruce?", "How you can be helpful?", "What support is offered"],
+         "responses": ["Hi, My name is Bruce. I'll walk you today, through our website - discoverfossils.com","Well, I was discovered, in 1974, north of Thornbill, within the Pembina member of the Pierre Shale formation. ","I lived during the late Cretaceous period, approximately 80 million years ago. He swam in a deep sea environment with numerous other marine reptiles. "],
+         "context": [""]
+        },
+        {"tag": "Fossil",
+         "patterns": ["What kind of fossils do you have?","how many fossils does the museum has?","Fossils"],
+         "responses": ["We have over 10,000 fossils in the Museum which is the Largest collection of Fossils in Canada. ", "We have over 10,000 fossils listed on the website. Which one are you looking for?"],
+         "context": [""]
+        },
+
+        {"tag": "F prep",
+         "patterns": ["How are fossils prepared?"],
+         "responses": ["Often the first view of what might be a major find is only a tiny fragment or small bone exposed by the bulldozers working at the mine. For the first step of its removal a large area around the find is excavated to determine the extent of the specimen. This is done with the aid of special tools.For more details you can visit ---    https://discoverfossils.com/research/fossil-preparation"],
+         "context": [""]
+        },
+       {"tag":"Entry1",
+         "patterns": ["How much is the Entry fee?","entry fees","Entry Fee"],
+         "responses":["Please choose One Option 1.Adults  2.Students 3. Family 4.Preschoolers"],
+          "context": [""]
+        },
+          {"tag":"Bb",
+         "patterns": ["Adults","adults","adults entry fee"],
+         "responses":["Adults: $8.25"],
+            "context": [""]
+
+        },
+        {"tag":"Cc",
+         "patterns": ["students","Students","students entry fee"],
+         "responses":["Students: $5.25(5-17 /yo)"],
+          "context": [""]
+        },
+        {"tag":"Dd",
+         "patterns": ["Family","family","family entry fee"],
+         "responses":["Family: $18.25(2 adults,3 Children)"],
+          "context": [""]
+        },
+        {"tag":"Ee",
+         "patterns": ["Preschoolers","preschoolers","preschoolers entry fee"],
+         "responses":["Preschoolers: Free"],
+         "context": [""]
+        },
+       {"tag":"Museum",
+         "patterns": ["Is the Museum open now?","Museum"],
+         "responses":["Yes, We are OPEN now. You can visit us Anyday from Monday-Friday, between 9 AM - 5PM. On weekends, Saturday and Sunday, we are open from Noon to 5 PM. "],
+         "context": [""]
+        },
+      {"tag":"Thanks",
+         "patterns": ["thanks","Bye","Good Byee"],
+         "responses":["Thanks For Visit my Website"],
+         "context": [""]
+        }
+]
+}
